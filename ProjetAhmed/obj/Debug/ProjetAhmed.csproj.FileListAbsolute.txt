@@ -1,0 +1,11 @@
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\bin\Debug\ProjetAhmed.exe.config
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\bin\Debug\ProjetAhmed.exe
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\bin\Debug\ProjetAhmed.pdb
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.csproj.AssemblyReference.cache
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.Form1.resources
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.Properties.Resources.resources
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.SelectionTypeChargeur.resources
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.csproj.GenerateResource.cache
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.csproj.CoreCompileInputs.cache
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.exe
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.pdb
