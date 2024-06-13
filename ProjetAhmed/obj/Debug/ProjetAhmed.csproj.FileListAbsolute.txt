@@ -9,3 +9,4 @@ C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\Proje
 C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.csproj.CoreCompileInputs.cache
 C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.exe
 C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.pdb
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.ChargeurUnePhase.resources

@@ -66,6 +66,9 @@
     <Compile Include="SelectionTypeChargeur.Designer.cs">
       <DependentUpon>SelectionTypeChargeur.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ChargeurUnePhase.resx">
+      <DependentUpon>ChargeurUnePhase.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -77,6 +80,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SelectionTypeChargeur.resx">
       <DependentUpon>SelectionTypeChargeur.cs</DependentUpon>
@@ -93,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="circuit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

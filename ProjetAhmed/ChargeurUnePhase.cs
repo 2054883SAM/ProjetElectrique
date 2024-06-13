@@ -16,5 +16,10 @@ namespace ProjetAhmed
         {
             InitializeComponent();
         }
+
+        private void ChargeurUnePhase_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
