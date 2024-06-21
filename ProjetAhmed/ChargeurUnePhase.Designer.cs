@@ -45,6 +45,10 @@ namespace ProjetAhmed
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
+            this.Test = new System.Windows.Forms.Button();
+            this.InputTest1 = new System.Windows.Forms.TextBox();
+            this.InputTest2 = new System.Windows.Forms.TextBox();
+            this.OutputTest1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -164,12 +168,49 @@ namespace ProjetAhmed
             this.textBox15.Size = new System.Drawing.Size(20, 58);
             this.textBox15.TabIndex = 15;
             // 
+            // Test
+            // 
+            this.Test.Location = new System.Drawing.Point(385, 533);
+            this.Test.Name = "Test";
+            this.Test.Size = new System.Drawing.Size(75, 23);
+            this.Test.TabIndex = 16;
+            this.Test.Text = "Test";
+            this.Test.UseVisualStyleBackColor = true;
+            this.Test.Click += new System.EventHandler(this.Test_Click);
+            // 
+            // InputTest1
+            // 
+            this.InputTest1.Location = new System.Drawing.Point(525, 500);
+            this.InputTest1.Name = "InputTest1";
+            this.InputTest1.Size = new System.Drawing.Size(100, 22);
+            this.InputTest1.TabIndex = 17;
+            // 
+            // InputTest2
+            // 
+            this.InputTest2.Location = new System.Drawing.Point(525, 553);
+            this.InputTest2.Name = "InputTest2";
+            this.InputTest2.Size = new System.Drawing.Size(100, 22);
+            this.InputTest2.TabIndex = 18;
+            // 
+            // OutputTest1
+            // 
+            this.OutputTest1.AutoSize = true;
+            this.OutputTest1.Location = new System.Drawing.Point(674, 533);
+            this.OutputTest1.Name = "OutputTest1";
+            this.OutputTest1.Size = new System.Drawing.Size(36, 17);
+            this.OutputTest1.TabIndex = 19;
+            this.OutputTest1.Text = "Test";
+            // 
             // ChargeurUnePhase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1405, 619);
+            this.Controls.Add(this.OutputTest1);
+            this.Controls.Add(this.InputTest2);
+            this.Controls.Add(this.InputTest1);
+            this.Controls.Add(this.Test);
             this.Controls.Add(this.textBox15);
             this.Controls.Add(this.textBox14);
             this.Controls.Add(this.textBox13);
@@ -213,5 +254,9 @@ namespace ProjetAhmed
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Button Test;
+        private System.Windows.Forms.TextBox InputTest1;
+        private System.Windows.Forms.TextBox InputTest2;
+        private System.Windows.Forms.Label OutputTest1;
     }
 }
