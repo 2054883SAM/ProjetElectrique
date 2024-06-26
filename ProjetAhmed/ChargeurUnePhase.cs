@@ -10,29 +10,61 @@ using System.Windows.Forms;
 
 namespace ProjetAhmed
 {
+    // Cette classe représente le formulaire pour un chargeur monophasé
     public partial class ChargeurUnePhase : Form
     {
+    
         public ChargeurUnePhase()
         {
             InitializeComponent();
         }
 
+     
         private void ChargeurUnePhase_Load(object sender, EventArgs e)
         {
-
+          
         }
 
+        // Méthode pour calculer la puissance électrique en fonction de la tension et de la résistance
+        public double CalculerPuissance(double tension, double resistance)
+        {
+            // Vérifie si la résistance est nulle pour éviter la division par zéro
+            if (resistance == 0)
+            {
+                throw new ArgumentException("La résistance ne peut pas être nulle.");
+            }
+
+            // Calcul de l'intensité du courant à partir de la tension et de la résistance (loi d'Ohm)
+            double courant = tension / resistance;
+
+            // Calcul de la puissance électrique (P = U * I)
+            double puissance = tension * courant;
+
+            return puissance;
+        }
+
+        // Gestionnaire d'événements pour le clic sur le bouton de test
         private void Test_Click(object sender, EventArgs e)
         {
-            string test1Text = InputTest1.Text;
-            string test2Text = InputTest2.Text;
+            // Récupération des valeurs de tension et de résistance à partir des champs de texte
+            string tensionS = InputTest1.Text;
+            string resistanceS = InputTest2.Text;
 
-            int test1int = int.Parse(test1Text);
-            int test2int = int.Parse(test2Text);
+            // Conversion des valeurs de texte en doubles
+            double tension = int.Parse(tensionS);
+            double resistance = int.Parse(resistanceS);
 
-            int result = test1int * test2int;
+            // Calcul de la puissance en utilisant la méthode CalculerPuissance
+            double puissance = CalculerPuissance(tension, resistance);
 
-            OutputTest1.Text = result.ToString();
+            // Affichage du résultat dans le champ de sortie
+            OutputTest1.Text = puissance.ToString() + " puissance";
+        }
+
+      
+        private void InputTest1_TextChanged(object sender, EventArgs e)
+        {
+ 
         }
     }
 }

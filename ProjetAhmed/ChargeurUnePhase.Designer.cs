@@ -184,6 +184,7 @@ namespace ProjetAhmed
             this.InputTest1.Name = "InputTest1";
             this.InputTest1.Size = new System.Drawing.Size(100, 22);
             this.InputTest1.TabIndex = 17;
+            this.InputTest1.TextChanged += new System.EventHandler(this.InputTest1_TextChanged);
             // 
             // InputTest2
             // 
