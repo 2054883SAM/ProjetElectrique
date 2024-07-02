@@ -22,5 +22,23 @@ namespace ProjetAhmed
             ChargeurUnePhase chargeurUnePhase = new ChargeurUnePhase();
             chargeurUnePhase.Show();
         }
+
+        private void btn_chargeurDeuxPhases_Click(object sender, EventArgs e)
+        {
+            ChargeurDeuxPhase chargeurDeuxPhase = new ChargeurDeuxPhase();
+            chargeurDeuxPhase.Show();
+        }
+
+        private void btn_chargeurTroisPhases_Click(object sender, EventArgs e)
+        {
+            ChargeurTroisPhase chargeurTroisPhase = new ChargeurTroisPhase();
+            chargeurTroisPhase.Show();
+        }
+
+        private void btn_chargeurQuatrePhases_Click(object sender, EventArgs e)
+        {
+            ChargeurQuatrePhase chargeurQuatrePhase = new ChargeurQuatrePhase();
+            chargeurQuatrePhase.Show();
+        }
     }
 }

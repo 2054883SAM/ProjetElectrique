@@ -10,3 +10,7 @@ C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\Proje
 C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.exe
 C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.pdb
 C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.ChargeurUnePhase.resources
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.ChargeurDeuxPhase.resources
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.ChargeurQuatrePhase.resources
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.ChargeurTroisPhase.resources
+C:\Users\mcoder\Desktop\ProjetElectrique\ProjetAhmed\ProjetAhmed\obj\Debug\ProjetAhmed.SelectionPhaseChargeur.resources

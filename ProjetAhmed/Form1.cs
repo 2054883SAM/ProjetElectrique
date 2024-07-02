@@ -29,8 +29,8 @@ namespace ProjetAhmed
 
         private void btn_Chargeur(object sender, EventArgs e)
         {
-            SelectionTypeChargeur selectionTypeChargeur = new SelectionTypeChargeur();
-            selectionTypeChargeur.Show();
+            SelectionPhaseChargeur selectionPhaseChargeur = new SelectionPhaseChargeur();
+            selectionPhaseChargeur.Show();
         }
     }
 }
